@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daftar Kegiatan Harian</title>
+    <link rel="stylesheet" href="latihan2.css" />
+  </head>
+  <body>
+    <h1 class="page-title">Daftar Kegiatan Harian</h1>
+
+    <div class="center-wrap">
+      <form id="itemForm" method="post" class="card">
+        <label for="itemInput">Tambah Kegiatan</label>
+        <input type="text" id="itemInput" autocomplete="off" />
+        <span id="errorMessage" aria-live="polite"></span>
+        <button type="submit" id="tambahBtn">Tambah</button>
+      </form>
+
+      <ul id="daftar" class="card list"></ul>
+    </div>
+
+    <script src="latihan2.js"></script>
+  </body>
+</html>
